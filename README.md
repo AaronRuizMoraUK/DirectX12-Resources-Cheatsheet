@@ -126,3 +126,16 @@ Full list of Resource States: https://docs.microsoft.com/en-us/windows/win32/api
 - `u` (e.g. `u0`, `u1`...): registers for read/write Textures and Buffers (UAVs)
 - `s` (e.g. `s0`, `s1`...): registers for Samplers
 - DirectX 12 also has the conceps of `space` (e.g. `space0`, `space1`, ...). So one resource can be assigned to `(t0, space0)` and another in `(t0, space1)` and they won't collide.
+
+## Links
+
+- [DirectX programming guide](https://docs.microsoft.com/en-us/windows/win32/direct3d12/directx-12-programming-guide)
+- [DirectX landing page](https://devblogs.microsoft.com/directx/landing-page/)
+- [DirectX engineering articles](https://microsoft.github.io/DirectX-Specs/)
+- [DirectX dev blog](https://devblogs.microsoft.com/directx/)
+- [DirectX Youtube channel](https://www.youtube.com/c/MicrosoftDirectX12andGraphicsEducation)
+- [HLSL](https://docs.microsoft.com/en-us/windows/win32/direct3dhlsl/dx-graphics-hlsl-pguide)
+- [DirectX Shader Compiler](https://github.com/microsoft/DirectXShaderCompiler)
+- DX12 samples
+  - https://docs.microsoft.com/en-us/windows/win32/direct3d12/working-samples
+  - https://github.com/Microsoft/DirectX-Graphics-Samples
