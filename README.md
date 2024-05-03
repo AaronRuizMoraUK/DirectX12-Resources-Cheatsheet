@@ -65,13 +65,13 @@ Table with the most common States for DirectX 12 Resources, with their respectiv
             <td><code>D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE</code> <br><br> <code>D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE</code> <br><br> <code>D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE + D3D12_RESO
 URCE_STATE_PIXEL_SHADER_RESOURCE</code></td>
             <td><code>Texture&lt;type&gt;</code></td>
-            <td>t</td>
+            <td><code>t</code></td>
         </tr>
         <tr>
             <td>UAV (read/write)</td>
             <td><code>D3D12_RESOURCE_STATE_UNORDERED_ACCESS</code></td>
             <td><code>RWTexture&lt;type&gt;</code> <br><br> <code>RasterizerOrderedTexture&lt;type&gt</code></td>
-            <td>u</td>
+            <td><code>u</code></td>
         </tr>
         <tr>
             <td>RTV</td>
@@ -90,20 +90,21 @@ URCE_STATE_PIXEL_SHADER_RESOURCE</code></td>
             <td rowspan=3>Buffer</td>
             <td>CBV (read only)</td>
             <td><code>D3D12_RESOURCE_STATE_VERTEX_AND_CONSTANT_BUFFER</code></td>
-            <td>cbuffer {members}</td>
-            <td>b</td>
+            <td><code>cbuffer {members}</code> <br><br> <code>tbuffer {members}</code> <br><br> <code>ConstantBuffer&lt;struct&gt;</code></td>
+            <td><code>b</code></td>
         </tr>
         <tr>
             <td>SRV (read only)</td>
-            <td><code>D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE</code></td>
-            <td>Buffer<type></td>
-            <td>t</td>
+            <td><code>D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE</code> <br><br> <code>D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE</code> <br><br> <code>D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE +
+D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE</code></td>
+            <td><code>Buffer&lt;type&gt;</code> <br><br> <code>StructuredBuffer&lt;struct&gt;</code> <br><br> <code>ByteAddressBuffer</code></td>
+            <td><code>t</code></td>
         </tr>
         <tr>
             <td>UAV (read/write)</td>
             <td><code>D3D12_RESOURCE_STATE_UNORDERED_ACCESS</code></td>
-            <td>RWBuffer<type></td>
-            <td>u</td>
+            <td><code>RWBuffer&lt;type&gt;</code> <br><br> <code>RWStructuredBuffer&lt;struct&gt;</code> <br><br> <code>RWByteAddressBuffer</code> <br><br> <code>RasterizerOrderedBuffer&lt;type&gt;</code> <br><br> <code>RasterizerOrderedStructuredBuffer&lt;struct&gt;</code> <br><br> <code>RasterizerOrderedByteAddressBuffer</code></td>
+            <td><code>u</code></td>
         </tr>
         <!-- BUFFER AS STREAM OUTPUT -->
         <tr>
