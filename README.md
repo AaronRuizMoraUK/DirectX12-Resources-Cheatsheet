@@ -87,7 +87,7 @@ URCE_STATE_PIXEL_SHADER_RESOURCE</code></td>
         </tr>
         <!-- BUFFER -->
         <tr>
-            <td rowspan=4>Buffer</td>
+            <td rowspan=3>Buffer</td>
             <td>CBV (read only)</td>
             <td><code>D3D12_RESOURCE_STATE_VERTEX_AND_CONSTANT_BUFFER</code></td>
             <td><code>cbuffer {members}</code> <br><br> <code>tbuffer {members}</code> <br><br> <code>ConstantBuffer&lt;struct&gt;</code></td>
@@ -106,7 +106,9 @@ D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE</code></td>
             <td><code>RWBuffer&lt;type&gt;</code> <br><br> <code>RWStructuredBuffer&lt;struct&gt;</code> <br><br> <code>RWByteAddressBuffer</code> <br><br> <code>RasterizerOrderedBuffer&lt;type&gt;</code> <br><br> <code>RasterizerOrderedStructuredBuffer&lt;struct&gt;</code> <br><br> <code>RasterizerOrderedByteAddressBuffer</code></td>
             <td><code>u</code></td>
         </tr>
+        <!-- BUFFER AS STREAM OUTPUT -->
         <tr>
+            <td>Buffer as Stream Output</td>
             <td>SOV</td>
             <td><code>D3D12_RESOURCE_STATE_STREAM_OUT</code></td>
             <td>-</td>
