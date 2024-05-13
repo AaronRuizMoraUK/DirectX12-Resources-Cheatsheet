@@ -119,6 +119,8 @@ D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE</code></td>
 
 Full list of Resource States: https://docs.microsoft.com/en-us/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_states
 
+Cheatsheet resources table for [DirectX 11](https://github.com/AaronRuizMoraUK/DirectX12-Resources-Cheatsheet/blob/main/DirectX11.md).
+
 ## Register Types used in Shaders (HLSL) for Resources
 
 - `b` (e.g. `b0`, `b1`...): registers for Constant Buffers (CBVs)
