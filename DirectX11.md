@@ -77,14 +77,16 @@ Table with DirectX 11 Resources, with their respectives Resource Views, Shader d
             <td>-<type></td>
             <td> </td>
         </tr>
-        <!-- BUFFER -->
+        <!-- BUFFER AS CONSTANT BUFFER -->
         <tr>
-            <td rowspan=3>Buffer</td>
+            <td>Buffer as Constant Buffer</td>
             <td>-</td>
             <td><code>cbuffer {members}</code> <br><br> <code>tbuffer {members}</code></td>
             <td><code>b</code></td>
         </tr>
+        <!-- BUFFER -->
         <tr>
+            <td rowspan=2>Buffer</td>
             <td>Shader Resource View (read only)</td>
             <td><code>Buffer&lt;type&gt;</code> <br><br> <code>StructuredBuffer&lt;struct&gt;</code> <br><br> <code>ByteAddressBuffer</code></td>
             <td><code>t</code></td>
