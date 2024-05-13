@@ -36,7 +36,6 @@ Table with DirectX 11 Resources, with their respectives Resource Views, Shader d
         <tr>
             <th>Resource</th>
             <th>Resource View</th>
-            <th>Possible Resource States</th>
             <th>Shader (HLSL)</th>
             <th>Shader Register Type</th>
         </tr>
@@ -45,72 +44,60 @@ Table with DirectX 11 Resources, with their respectives Resource Views, Shader d
         <!-- VERTEX BUFFER -->
         <tr>
             <td>Vertex Buffer</td>
-            <td>VBV</td>
-            <td><code>D3D12_RESOURCE_STATE_VERTEX_AND_CONSTANT_BUFFER</code></td>
+            <td>-</td>
             <td>-</td>
             <td> </td>
         </tr>
         <!-- INDEX BUFFER -->
         <tr>
             <td>Index Buffer</td>
-            <td>IBV</td>
-            <td><code>D3D12_RESOURCE_STATE_INDEX_BUFFER</code></td>
+            <td>-</td>
             <td>-</td>
             <td> </td>
         </tr>
         <!-- TEXTURE -->
         <tr>
             <td rowspan=4>Texture</td>
-            <td>SRV (read only)</td>
-            <td><code>D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE</code> <br><br> <code>D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE</code> <br><br> <code>D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE + D3D12_RESO
-URCE_STATE_PIXEL_SHADER_RESOURCE</code></td>
+            <td>Shader Resource View (read only)</td>
             <td><code>Texture&lt;type&gt;</code></td>
             <td><code>t</code></td>
         </tr>
         <tr>
-            <td>UAV (read/write)</td>
-            <td><code>D3D12_RESOURCE_STATE_UNORDERED_ACCESS</code></td>
+            <td>Unordered Access View (read/write)</td>
             <td><code>RWTexture&lt;type&gt;</code> <br><br> <code>RasterizerOrderedTexture&lt;type&gt</code></td>
             <td><code>u</code></td>
         </tr>
         <tr>
-            <td>RTV</td>
-            <td><code>D3D12_RESOURCE_STATE_RENDER_TARGET</code></td>
+            <td>Render Target View</td>
             <td>-<type></td>
             <td> </td>
         </tr>
         <tr>
-            <td>DSV</td>
-            <td>Depth/Stencil enabled + write: <br><br> <code>D3D12_RESOURCE_STATE_DEPTH_WRITE</code> <br><br> Depth/Stencil enabled + no-write: <br><br> <code>D3D12_RESOURCE_STATE_DEPTH_READ</code></td>
+            <td>Depth Stencil View</td>
             <td>-<type></td>
             <td> </td>
         </tr>
         <!-- BUFFER -->
         <tr>
             <td rowspan=3>Buffer</td>
-            <td>CBV (read only)</td>
-            <td><code>D3D12_RESOURCE_STATE_VERTEX_AND_CONSTANT_BUFFER</code></td>
-            <td><code>cbuffer {members}</code> <br><br> <code>tbuffer {members}</code> <br><br> <code>ConstantBuffer&lt;struct&gt;</code></td>
+            <td>-</td>
+            <td><code>cbuffer {members}</code> <br><br> <code>tbuffer {members}</code></td>
             <td><code>b</code></td>
         </tr>
         <tr>
-            <td>SRV (read only)</td>
-            <td><code>D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE</code> <br><br> <code>D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE</code> <br><br> <code>D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE +
-D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE</code></td>
+            <td>Shader Resource View (read only)</td>
             <td><code>Buffer&lt;type&gt;</code> <br><br> <code>StructuredBuffer&lt;struct&gt;</code> <br><br> <code>ByteAddressBuffer</code></td>
             <td><code>t</code></td>
         </tr>
         <tr>
-            <td>UAV (read/write)</td>
-            <td><code>D3D12_RESOURCE_STATE_UNORDERED_ACCESS</code></td>
+            <td>Unordered Access View (read/write)</td>
             <td><code>RWBuffer&lt;type&gt;</code> <br><br> <code>RWStructuredBuffer&lt;struct&gt;</code> <br><br> <code>RWByteAddressBuffer</code> <br><br> <code>RasterizerOrderedBuffer&lt;type&gt;</code> <br><br> <code>RasterizerOrderedStructuredBuffer&lt;struct&gt;</code> <br><br> <code>RasterizerOrderedByteAddressBuffer</code></td>
             <td><code>u</code></td>
         </tr>
         <!-- BUFFER AS STREAM OUTPUT -->
         <tr>
             <td>Buffer as Stream Output</td>
-            <td>SOV</td>
-            <td><code>D3D12_RESOURCE_STATE_STREAM_OUT</code></td>
+            <td>-</td>
             <td>-</td>
             <td> </td>
         </tr>
