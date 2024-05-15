@@ -86,7 +86,7 @@ Table with DirectX 11 Resources, with their respectives Resource Views, Shader d
         </tr>
         <!-- BUFFER -->
         <tr>
-            <td rowspan=2>Buffer</td>
+            <td rowspan=3>Buffer</td>
             <td>Shader Resource View (read only)</td>
             <td><code>Buffer&lt;type&gt;</code> <br><br> <code>StructuredBuffer&lt;struct&gt;</code> <br><br> <code>ByteAddressBuffer</code></td>
             <td><code>t</code></td>
@@ -95,6 +95,11 @@ Table with DirectX 11 Resources, with their respectives Resource Views, Shader d
             <td>Unordered Access View (read/write)</td>
             <td><code>RWBuffer&lt;type&gt;</code> <br><br> <code>RWStructuredBuffer&lt;struct&gt;</code> <br><br> <code>RWByteAddressBuffer</code> <br><br> <code>RasterizerOrderedBuffer&lt;type&gt;</code> <br><br> <code>RasterizerOrderedStructuredBuffer&lt;struct&gt;</code> <br><br> <code>RasterizerOrderedByteAddressBuffer</code></td>
             <td><code>u</code></td>
+        </tr>
+        <tr>
+            <td>Render Target View</td>
+            <td>-<type></td>
+            <td> </td>
         </tr>
         <!-- BUFFER AS STREAM OUTPUT -->
         <tr>
