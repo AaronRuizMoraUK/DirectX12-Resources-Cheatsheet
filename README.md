@@ -64,13 +64,13 @@ Table with the most common States for DirectX 12 Resources, with their respectiv
             <td>SRV (read only)</td>
             <td><code>D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE</code> <br><br> <code>D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE</code> <br><br> <code>D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE + D3D12_RESO
 URCE_STATE_PIXEL_SHADER_RESOURCE</code></td>
-            <td><code>Texture&lt;type&gt;</code></td>
+            <td><code>Texture[1D|2D|3D|Cube]&lt;type&gt;</code> <br><br> <code>Texture[1D|2D|3D|Cube]Array&lt;type&gt;</code></td>
             <td><code>t</code></td>
         </tr>
         <tr>
             <td>UAV (read/write)</td>
             <td><code>D3D12_RESOURCE_STATE_UNORDERED_ACCESS</code></td>
-            <td><code>RWTexture&lt;type&gt;</code> <br><br> <code>RasterizerOrderedTexture&lt;type&gt</code></td>
+            <td><code>RWTexture[1D|2D|3D]&lt;type&gt;</code> <br><br> <code>RWTexture[1D|2D]Array&lt;type&gt;</code> <br><br> <code>RasterizerOrderedTexture[1D|2D|3D]&lt;type&gt</code><br><br> <code>RasterizerOrderedTexture[1D|2D]Array&lt;type&gt</code></td>
             <td><code>u</code></td>
         </tr>
         <tr>
