@@ -59,12 +59,12 @@ Table with DirectX 11 Resources, with their respectives Resource Views, Shader d
         <tr>
             <td rowspan=4>Texture</td>
             <td>Shader Resource View (read only)</td>
-            <td><code>Texture&lt;type&gt;</code></td>
+            <td><code>Texture[1D|2D|3D|Cube]&lt;type&gt;</code> <br><br> <code>Texture[1D|2D|Cube]Array&lt;type&gt;</code>></td>
             <td><code>t</code></td>
         </tr>
         <tr>
             <td>Unordered Access View (read/write)</td>
-            <td><code>RWTexture&lt;type&gt;</code> <br><br> <code>RasterizerOrderedTexture&lt;type&gt</code></td>
+            <td><code>RWTexture[1D|2D|3D]&lt;type&gt;</code> <br><br> <code>RWTexture[1D|2D]Array&lt;type&gt;</code> <br><br> <code>RasterizerOrderedTexture[1D|2D|3D]&lt;type&gt</code> <br><br> <code>RasterizerOrderedTexture[1D|2D]Array&lt;type&gt</code></td>
             <td><code>u</code></td>
         </tr>
         <tr>
