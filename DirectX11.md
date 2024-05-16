@@ -59,7 +59,7 @@ Table with DirectX 11 Resources, with their respectives Resource Views, Shader d
         <tr>
             <td rowspan=4>Texture</td>
             <td>Shader Resource View (read only)</td>
-            <td><code>Texture[1D|2D|3D|Cube]&lt;type&gt;</code> <br><br> <code>Texture[1D|2D|Cube]Array&lt;type&gt;</code>></td>
+            <td><code>Texture[1D|2D|2DMS|3D|Cube]&lt;type&gt;</code> <br><br> <code>Texture[1D|2D|2DMS|Cube]Array&lt;type&gt;</code>></td>
             <td><code>t</code></td>
         </tr>
         <tr>
