@@ -90,8 +90,8 @@ URCE_STATE_PIXEL_SHADER_RESOURCE</code></td>
             <td rowspan=4>Buffer</td>
             <td>CBV (read only)</td>
             <td><code>D3D12_RESOURCE_STATE_VERTEX_AND_CONSTANT_BUFFER</code></td>
-            <td><code>cbuffer {members}</code> <br><br> <code>tbuffer {members}</code> <br><br> <code>ConstantBuffer&lt;struct&gt;</code></td>
-            <td><code>b</code></td>
+            <td><code>ConstantBuffer&lt;struct&gt;</code> <br><br> <code>cbuffer {members}</code> <br><br> <code>tbuffer {members}</code></td>
+            <td><code>b</code> <br><br> <code>b</code> <br><br> <code>t</code></td>
         </tr>
         <tr>
             <td>SRV (read only)</td>
