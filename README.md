@@ -64,7 +64,7 @@ Table with the most common States for DirectX 12 Resources, with their respectiv
             <td>SRV (read only)</td>
             <td><code>D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE</code> <br><br> <code>D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE</code> <br><br> <code>D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE + D3D12_RESO
 URCE_STATE_PIXEL_SHADER_RESOURCE</code></td>
-            <td><code>Texture[1D|2D|2DMS|3D|Cube]&lt;type&gt;</code> <br><br> <code>Texture[1D|2D|2DMS|3D|Cube]Array&lt;type&gt;</code></td>
+            <td><code>Texture[1D|2D|2DMS|3D|Cube]&lt;type&gt;</code> <br><br> <code>Texture[1D|2D|2DMS|Cube]Array&lt;type&gt;</code></td>
             <td><code>t</code></td>
         </tr>
         <tr>
