@@ -1,6 +1,6 @@
 # DirectX12 Resources Cheatsheet
 
-Table with the most common States for DirectX 12 Resources, with their respectives Resource Views, Shader data structures and register types.
+Table with the most common States for DirectX 12 Resources, with their respective Resource Views, Shader data structures and register types.
 
 <!--
 <table>
