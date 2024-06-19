@@ -1,6 +1,6 @@
 # DirectX11 Resources Cheatsheet
 
-Table with DirectX 11 Resources, with their respectives Resource Views, Shader data structures and register types.
+Table with DirectX 11 Resources, with their respective Resource Views, Shader data structures and register types.
 
 <!--
 <table>
